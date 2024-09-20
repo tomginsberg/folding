@@ -5,7 +5,6 @@ python3 ./neurons/miner.py \
     --netuid 141 \
     --subtensor.network test \
     --wallet.name folding_testnet \
-    --wallet.hotkey m1 \
+    --wallet.hotkey \
     --neuron.max_workers 1 \
-    --wandb.off
     # --axon.port <your_port>
