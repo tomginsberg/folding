@@ -463,7 +463,7 @@ class SimulationManager:
         check_if_directory_exists(output_directory=self.output_dir)
         os.chdir(self.output_dir)
 
-        steps = {"nvt": 50000, "npt": 75000, "md_0_1": 500000}
+        steps = {"nvt": 5000, "npt": 7500, "md_0_1": 50000}
 
         # Write the seed so that we always know what was used.
         with open(self.seed_file_name, "w") as f:
