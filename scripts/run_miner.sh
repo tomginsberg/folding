@@ -2,9 +2,10 @@
 
 # Execute the Python script
 python3 ./neurons/miner.py \
-    --netuid 25 \
-    --subtensor.network finney \
-    --wallet.name <your_coldkey> \
-    --wallet.hotkey <your_hotkey> \
-    --neuron.max_workers <number of processes to run on your machine> \
-    --axon.port <your_port>
+    --netuid 141 \
+    --subtensor.network test \
+    --wallet.name folding_testnet \
+    --wallet.hotkey m1 \
+    --neuron.max_workers 1 \
+    --wandb.off
+    # --axon.port <your_port>
